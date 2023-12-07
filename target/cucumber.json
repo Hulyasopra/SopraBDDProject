@@ -1,0 +1,68 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-07T13:09:22.393Z",
+        "line": 3,
+        "name": "Login to app",
+        "description": "",
+        "id": "login-to-app;login-to-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8410983900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to app url",
+            "match": {
+              "location": "soprasteria.stepdefinitions.LoginSteps.User_navigates_to_app_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7436148100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches \"iphone 15 pro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 15 pro\"",
+                  "offset": 14
+                }
+              ],
+              "location": "soprasteria.stepdefinitions.LoginSteps.user_searches(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Login to app",
+    "description": "",
+    "id": "login-to-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
